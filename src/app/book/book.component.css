@@ -1,0 +1,25 @@
+body{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+    background: url('https://newevolutiondesigns.com/images/freebies/4k-car-wallpaper-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book .form{
+    width: 40%;
+    padding: 5%;
+}
+.book ul{
+    padding-left: 14px;
+    
+    color: #fff;
+}
+.book ul li{
+    margin: 10px 0;
+}
+.form{
+    background: yellow;
+}

@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+}
+
+
+
+section{
+    padding: 3rem 9%S;
+
+    }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b2141;
+    transition: 0.5s;
+    z-index: 1000;
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin: 10px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    background: orangered;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.header-btn a{
+    padding: 10px 20px;
+    color: orange;
+    font-weight: 500;
+}
+.header-btn .sign-in{
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.header-btn .sign-in:hover{
+    background: orange;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.header-btn .sign-up{
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.header-btn .sign-up:hover{
+    background: orange;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+.home{
+    margin: 0 auto;
+   margin-top: 9rem;
+    width: 100%;
+    border-radius: 1rem;
+    justify-content: center;
+    background-position: center;
+    padding-bottom: 5rem;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.home .content h2{
+    font-family: cursive;
+    font-size: 4vw;
+    color: yellow;
+    filter:  drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px 1px 0 black )
+    drop-shadow(1px -1px 0 black)
+    drop-shadow(-1px -1px 0 black)
+    
+}
+
+.home .content a{
+display: inline-block;
+padding: 10px 20px;
+margin: 20px 0;
+border: 1px solid red;
+text-decoration: none;
+font-weight: 700;
+border-radius: 5px;
+color: #fff;
+letter-spacing: 1px;
+align-items: center;
+}
+
+.btn a {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    border-radius: 0.5rem;
+    border: 2px solid red;
+    padding: 10px;
+
+}
+.btn  a:hover{
+    background: blue;
+    border: none;
+    color: #fff;
+}
+.about{
+    background-image: linear-gradient(45deg,grey,black);
+    width: 100%;
+    display: flex;
+}
+.about .content img{
+    margin-left: 65%;
+    max-width: 40%;
+
+}
+.about{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about .content{
+    width: 50%;
+    margin: 20px;
+}
+.about .content h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+ }
+ .about .content p{
+     max-width: 600px;
+     text-align: justify;
+     color: #dbd9d9;
+ }
+ .about .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.about .content a:hover{
+    background: blue;
+    border: none;
+    color: #fff;
+}
+.heading span{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin: 0.5rem 0 0.5rem;
+}
+.heading h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.reviews-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.rev-img {
+    width: 70px;
+    height: 70px;
+}
+.rev-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #ffac38;
+}
+.reviews-container .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 4px 41px rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+
+}
+.reviews-container .box h2{
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin: 0.5rem 0 0.5rem;
+}
+.reviews-container .box p{
+    font-style: italic;
+}
+.reviews-container .box .star .bx{
+             color: #fe5b3d;
+}
+
+
+
+.contact{
+    padding: 20px 100px;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/premium-photo/blurred-abstract-city-bokeh-car-lights-background-night-city-traffic-jams-highway-night-life_548821-28229.jpg?w=2000');
+    
+}
+.contact .form{
+    width: 50%;
+    margin: 30px;
+}
+.contact .form h1{
+    color: #fff;
+}
+.contact .form .inputBx{
+    margin: 10px 0;
+}
+.contact .form .inputBx p{
+    color: #1aeeef;
+}
+.contact .form .inputBx input,
+.contact .form .inputBx textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: #1b2141;
+    min-height: 15px;
+    font-size: 1.1em;
+}
+.contact .form .inputBx textarea{
+    height: 150px;
+}
+.contact .form .inputBx input[type="submit"]{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.contact .form .inputBx input[type="submit"]:hover{
+    background: #474fa0;
+    border: none;
+    color: #050e2d;
+    
+}
+
+
+.card h3{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+}
+.card .infobox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card .infobox div span{
+    min-height: 40px;
+    height: 40px;
+    color: #fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.card .infobox div p{
+    color: #fff;
+    font-size: 1.1em;
+
+}
+.card .infobox div a{
+    color: #fff;
+    text-decoration: none;
+}
+.sci{
+    margin-top: 40px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+    margin-right: 15px;
+    background: cornflowerblue;
+}
+.sci li a{
+    color: #fff;
+}
+.sci li a:hover{
+    color: #fff;
+}
+.service{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.service .cardBx{
+    width: 50%;
+    margin: 20px;
+}
+.service .cardBx h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+ }
+ .service .cardbx p{
+     max-width: 600px;
+     text-align: justify;
+     color: #dbd9d9;
+ }
+ .service{
+    background-color:#474fa0;
+    width: 100%;
+    display: flex;
+}
+.service .cardBx img{
+    margin-left: 65%;
+    max-width: 40%;
+
+}
